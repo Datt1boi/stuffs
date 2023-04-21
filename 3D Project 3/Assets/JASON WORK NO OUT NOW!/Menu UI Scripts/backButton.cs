@@ -1,19 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class fishspeed : MonoBehaviour
+public class backButton : MonoBehaviour
 {
-    public float speed = 1.0f;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0, 0, Time.deltaTime * speed);
+
     }
+
+    public void ButtonForBack()
+    {
+        SceneManager.LoadScene("Start Screen");
+    }
+
 }
