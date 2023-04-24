@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class fishspeed : MonoBehaviour
 {
-    public float speed = -1.0f;
+    public float speed = -2.0f;
     // Start is called before the first frame update
     void Start()
     {
