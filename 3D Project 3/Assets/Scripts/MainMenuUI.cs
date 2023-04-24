@@ -19,6 +19,8 @@ public class MainMenuUI : MonoBehaviour
 
     public void Play()
     {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Confined;
         Time.timeScale = 1;
         SceneManager.LoadScene("Level 1");
     }
