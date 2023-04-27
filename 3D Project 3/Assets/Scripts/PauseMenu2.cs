@@ -41,6 +41,7 @@ public class PauseMenu2 : MonoBehaviour
     {
         Time.timeScale = 1;
         Cursor.visible = false;
+        Cursor.Equals(Cursor.lockState, Cursor.visible);    
         GetComponent<Canvas>().enabled = false;
     }
 
@@ -49,6 +50,7 @@ public class PauseMenu2 : MonoBehaviour
         Time.timeScale = 1;
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
+        Cursor.visible = false;
     }
     public void LoadMainMenu()
     {

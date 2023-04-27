@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenuUI : MonoBehaviour
+public class DeathScreen : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -19,25 +19,15 @@ public class MainMenuUI : MonoBehaviour
 
     public void Play()
     {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Confined;
         Time.timeScale = 1;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = false; 
         SceneManager.LoadScene("Level 1");
     }
-    public void tutorial()
-    {
-        SceneManager.LoadScene("Tutorial");
-    }
-    public void LevelSelect()
-    {
-        SceneManager.LoadScene("LevelSelect");
-    }
-
-    public void QuitGame()
+     public void QuitGame()
     {
         Application.Quit();
     }
-    
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
