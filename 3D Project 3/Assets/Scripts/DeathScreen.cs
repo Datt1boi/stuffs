@@ -20,8 +20,8 @@ public class DeathScreen : MonoBehaviour
     public void Play()
     {
         Time.timeScale = 1;
+        Cursor.visible = true;
         Cursor.lockState = CursorLockMode.Confined;
-        Cursor.visible = false; 
         SceneManager.LoadScene("Level 1");
     }
      public void QuitGame()
