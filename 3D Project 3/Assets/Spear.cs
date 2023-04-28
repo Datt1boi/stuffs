@@ -25,6 +25,7 @@ public class Spear : MonoBehaviour
         if( isHeld && Input.GetMouseButtonDown(0))
         {
             Throw();
+            
         }
         else if(!isHeld && Input.GetMouseButton(1))
         {
@@ -34,6 +35,7 @@ public class Spear : MonoBehaviour
         {
             isRetracting = false;
         }
+        
     }
     private void FixedUpdate()
     {
@@ -51,6 +53,8 @@ public class Spear : MonoBehaviour
 
         rb.AddForce(transform.forward * throwPower, ForceMode.Impulse);
         isHeld = false;
+        transform.Rotate(100 * Time.deltaTime, 0f, 0f, Space.Self);
+
     }
     void Retract()
     {
