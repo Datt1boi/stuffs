@@ -14,7 +14,7 @@ public class MainMenuUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
     public void Play()
