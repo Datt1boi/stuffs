@@ -9,6 +9,7 @@ public class ThrowableAxe : MonoBehaviour
     public Transform target, curve_point;
     private Vector3 old_pos;
     private bool isReturning = false;
+    private float time = 0.0f;
     
     // Update is called once per frame
     void Update()
@@ -21,8 +22,17 @@ public class ThrowableAxe : MonoBehaviour
         {
             ReturnAxe();
         }
-        if(isReturning)
+        if (isReturning)
         {
+            if (time < 1.0f) {
+                axe.position = getBQCPoint(time, old_pos, curve_point.position, target.position);
+                axe.rotation = Quaternion.Slerp(axe.transform.rotation, target.transform.rotation, 50 * Time.deltaTime);
+                time += Time.deltaTime;
+            }
+            else
+            {
+            ResetAxe();
+            }
             //returning cal
         }
     }
@@ -37,11 +47,26 @@ public class ThrowableAxe : MonoBehaviour
     //return axe
     void ReturnAxe()
     {
+        time = 0.0f;
         old_pos = axe.position;
         isReturning = true;
         axe.velocity = Vector3.zero;
         axe.isKinematic = true;
     }
     //Reset axe
+    void ResetAxe() { 
+        isReturning = false;
+        axe.transform.parent = transform;
+        axe.position = target.position;
+        axe.rotation = target.rotation;
+    }
+    Vector3 getBQCPoint(float t, Vector3 p0, Vector3 p1, Vector3 p2)
+    {
+        float u = 1 - t;
+        float tt = t * t;
+        float uu = u * u;
+        Vector3 p = (uu * p0) + (2 * u * t * p1) + (tt * p2);
+        return p;
+    }
 
 }
