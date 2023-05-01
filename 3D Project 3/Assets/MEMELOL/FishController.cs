@@ -10,12 +10,23 @@ public class FishController : MonoBehaviour
     public float ascentSpeed = 5f;  // ascend speed
     public float descentSpeed = 2f; // descent speed
 
+    public float mouseSensitivity = 100f; // mouse sensitivity
+
+    public Transform cameraTransform; // camera transform
+
     private Rigidbody rb; // rigidbody component
     private Vector3 moveDirection = Vector3.zero; // movement direction
+    private float verticalLookRotation; // vertical look rotation
 
     void Start()
     {
         rb = GetComponent<Rigidbody>(); // get the rigidbody component
+        Cursor.lockState = CursorLockMode.Locked; // lock the cursor to the center of the screen
+
+        if (cameraTransform == null)
+        {
+            cameraTransform = Camera.main.transform;
+        }
     }
 
     void FixedUpdate()
@@ -57,6 +68,15 @@ public class FishController : MonoBehaviour
         // move the rigidbody
         rb.MovePosition(rb.position + moveDirection * Time.fixedDeltaTime);
 
+        // calculate horizontal rotation
+        float horizontalRotation = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+        transform.Rotate(0f, horizontalRotation, 0f);
+
+        // calculate vertical rotation
+        verticalLookRotation += Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+        verticalLookRotation = Mathf.Clamp(verticalLookRotation, -90f, 90f);
+        cameraTransform.localEulerAngles = new Vector3(-verticalLookRotation, 0f, 0f);
+
         // check if any input is being pressed
         bool isMoving = moveDirection.magnitude > 0.1f;
 
@@ -66,5 +86,8 @@ public class FishController : MonoBehaviour
 
         // smoothly rotate towards the target rotation
         transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, turnSpeed * Time.deltaTime);
+
+        // move the camera with the fish
+        cameraTransform.position = transform.position - transform.forward * 3f + Vector3.up * 1f;
     }
 }
