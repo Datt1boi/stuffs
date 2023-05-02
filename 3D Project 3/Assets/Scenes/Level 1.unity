@@ -1238,7 +1238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axe: {fileID: 112443003}
-  throwForce: 20
+  throwForce: 50
   target: {fileID: 1737396613}
   curve_point: {fileID: 855490717}
 --- !u!54 &1543061125
