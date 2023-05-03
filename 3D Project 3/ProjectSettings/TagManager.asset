@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Grounded
+  - GUN
   layers:
   - Default
   - TransparentFX
