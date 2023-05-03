@@ -33,6 +33,6 @@ public class EnemySpawner : MonoBehaviour
         yield return new WaitForSeconds(vulnerableDelay);
 
         // Enable the enemy's collider
-        enemy.GetComponent<Collider2D>().enabled = true;
+        enemy.GetComponent<Collider>().enabled = true;
     }
 }

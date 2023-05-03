@@ -52,6 +52,7 @@ public class ThrowableAxe : MonoBehaviour
         isReturning = true;
         axe.velocity = Vector3.zero;
         axe.isKinematic = true;
+        
     }
     //Reset axe
     void ResetAxe() { 
@@ -59,6 +60,7 @@ public class ThrowableAxe : MonoBehaviour
         axe.transform.parent = transform;
         axe.position = target.position;
         axe.rotation = target.rotation;
+       
     }
     Vector3 getBQCPoint(float t, Vector3 p0, Vector3 p1, Vector3 p2)
     {
