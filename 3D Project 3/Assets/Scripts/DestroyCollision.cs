@@ -10,15 +10,19 @@ public class DestroyCollision : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void Update ()
+	{
+
 	}
 
 
-	private void OnCollisionEnter(Collision collision)
+	void OnCollisionEnter(Collision collision)
 	{
-		if (collision.gameObject.tag == "GUN") {
-			Destroy (collision.gameObject);
+        
+        if (collision.gameObject.name.Contains("enemy"))
+        {
+			Destroy(collision.gameObject);
 		}
 	}
+
 }

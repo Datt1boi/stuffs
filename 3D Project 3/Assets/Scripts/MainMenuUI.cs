@@ -24,10 +24,8 @@ public class MainMenuUI : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene("Level 1");
     }
-    public void tutorial()
-    {
-        SceneManager.LoadScene("Tutorial");
-    }
+    
+    
     public void LevelSelect()
     {
         SceneManager.LoadScene("LevelSelect");
@@ -41,5 +39,9 @@ public class MainMenuUI : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+    public void turtoial()
+    {
+        SceneManager.LoadScene("HowTOPlay");
     }
 }
