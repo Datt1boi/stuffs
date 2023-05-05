@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using JetBrains.Annotations;
+using UnityEngine.SceneManagement;
 
 public class DestroyCollision : MonoBehaviour {
 
@@ -21,8 +22,8 @@ public class DestroyCollision : MonoBehaviour {
         
         if (collision.gameObject.name.Contains("enemy"))
         {
-			Destroy(collision.gameObject);
-		}
-	}
+            SceneManager.LoadScene("win screen");
+        }
+    }
 
 }
