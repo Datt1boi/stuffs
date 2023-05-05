@@ -125,6 +125,7 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &3854112
 =======
 --- !u!1001 &11746524
@@ -1138,6 +1139,8 @@ Transform:
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!1 &221212772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,10 +1188,14 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 8
 =======
   m_RootOrder: 7
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
+=======
+  m_RootOrder: 6
+>>>>>>> parent of 2beb8c9 (the Enemys)
 =======
   m_RootOrder: 6
 >>>>>>> parent of 2beb8c9 (the Enemys)
@@ -1467,14 +1474,19 @@ MonoBehaviour:
   slider: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &225187221
 =======
 --- !u!1001 &232082512
+=======
+--- !u!1001 &248077240
+>>>>>>> parent of 2beb8c9 (the Enemys)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1515289424}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: bfbc3edfaf8f8104c83d81e790b275f8, type: 3}
@@ -1540,6 +1552,8 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1707491692395910421, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
@@ -1558,10 +1572,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -1
 =======
       value: 8
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
+=======
+      value: 7
+>>>>>>> parent of 2beb8c9 (the Enemys)
 =======
       value: 7
 >>>>>>> parent of 2beb8c9 (the Enemys)
@@ -1628,6 +1646,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &280422367
@@ -2997,6 +3016,8 @@ Transform:
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!1 &545700010
 GameObject:
   m_ObjectHideFlags: 0
@@ -3082,6 +3103,7 @@ MeshFilter:
   m_Mesh: {fileID: 8017140435187023657, guid: 63f83b5d94a503b4b97d1a7988239031, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &589239827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3160,6 +3182,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!54 &633321090
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3208,6 +3232,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.003165278, y: 0.03126297, z: 0.033626568}
   m_Center: {x: -0.0068698092, y: 0.025312094, z: 0.037136924}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &635257017
@@ -3414,6 +3439,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!1 &666943863
 GameObject:
   m_ObjectHideFlags: 0
@@ -3521,6 +3548,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666943863}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &668557996
@@ -3818,6 +3846,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!1001 &746329221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3838,10 +3868,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 5
 =======
       value: 4
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
+=======
+      value: 3
+>>>>>>> parent of 2beb8c9 (the Enemys)
 =======
       value: 3
 >>>>>>> parent of 2beb8c9 (the Enemys)
@@ -3903,6 +3937,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0271df749728104eac22c3d897fd8ce, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &756293524
@@ -4035,6 +4070,8 @@ Transform:
 =======
   m_SourcePrefab: {fileID: 100100000, guid: bfbc3edfaf8f8104c83d81e790b275f8, type: 3}
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!4 &772310465
@@ -4325,6 +4362,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &894921988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4559,6 +4597,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!1 &937001041
 GameObject:
   m_ObjectHideFlags: 0
@@ -4652,10 +4692,14 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 7
 =======
   m_RootOrder: 6
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
+=======
+  m_RootOrder: 5
+>>>>>>> parent of 2beb8c9 (the Enemys)
 =======
   m_RootOrder: 5
 >>>>>>> parent of 2beb8c9 (the Enemys)
@@ -4711,6 +4755,7 @@ MonoBehaviour:
   m_Bidirectional: 1
   m_AutoUpdatePosition: 0
   m_Area: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &944301631
@@ -5269,6 +5314,8 @@ Transform:
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!1 &1062668625
 GameObject:
   m_ObjectHideFlags: 0
@@ -5369,10 +5416,14 @@ RectTransform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 6
 =======
   m_RootOrder: 5
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
+=======
+  m_RootOrder: 4
+>>>>>>> parent of 2beb8c9 (the Enemys)
 =======
   m_RootOrder: 4
 >>>>>>> parent of 2beb8c9 (the Enemys)
@@ -5481,6 +5532,7 @@ MeshFilter:
   m_Mesh: {fileID: 8771164678728821076, guid: 63f83b5d94a503b4b97d1a7988239031, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1096232887
 =======
 --- !u!4 &1096141873 stripped
@@ -5489,17 +5541,39 @@ Transform:
   m_PrefabInstance: {fileID: 88440215}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1097178715
+=======
+--- !u!1001 &1106191935
+>>>>>>> parent of 2beb8c9 (the Enemys)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1515289424}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: bfbc3edfaf8f8104c83d81e790b275f8, type: 3}
-      propertyPath: m_RootOrder
-      value: -1
+=======
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1707491692395910421, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+      propertyPath: m_Name
+      value: enemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1707491692395910421, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+      propertyPath: m_TagString
+      value: Hostile
+      objectReference: {fileID: 0}
+    - target: {fileID: 4286318907766319805, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 221212773}
+    - target: {fileID: 8394980597538877257, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+>>>>>>> parent of 2beb8c9 (the Enemys)
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: -8679921383154817045, guid: bfbc3edfaf8f8104c83d81e790b275f8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -94.2901
@@ -5517,17 +5591,45 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bfbc3edfaf8f8104c83d81e790b275f8, type: 3}
+=======
+    - target: {fileID: 8394980597538877257, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 75.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 8394980597538877257, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 48.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 8394980597538877257, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 67.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8394980597538877257, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8394980597538877257, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+>>>>>>> parent of 2beb8c9 (the Enemys)
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: -8679921383154817045, guid: bfbc3edfaf8f8104c83d81e790b275f8, type: 3}
+=======
+    - target: {fileID: 8394980597538877257, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+>>>>>>> parent of 2beb8c9 (the Enemys)
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: -8679921383154817045, guid: bfbc3edfaf8f8104c83d81e790b275f8, type: 3}
+=======
+    - target: {fileID: 8394980597538877257, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+>>>>>>> parent of 2beb8c9 (the Enemys)
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: -8679921383154817045, guid: bfbc3edfaf8f8104c83d81e790b275f8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
@@ -5544,10 +5646,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coral (2)
       objectReference: {fileID: 0}
+=======
+    - target: {fileID: 8394980597538877257, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8394980597538877257, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8394980597538877257, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> parent of 2beb8c9 (the Enemys)
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: bfbc3edfaf8f8104c83d81e790b275f8, type: 3}
 --- !u!1001 &1106191935
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
@@ -6127,6 +6244,9 @@ Transform:
 =======
   m_SourcePrefab: {fileID: 100100000, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
 >>>>>>> parent of 2beb8c9 (the Enemys)
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+>>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!1 &1192107006
 GameObject:
   m_ObjectHideFlags: 0
@@ -6158,6 +6278,7 @@ Transform:
   m_Father: {fileID: 221212773}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &1200325346
@@ -6643,6 +6764,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!1 &1288839907
 GameObject:
   m_ObjectHideFlags: 0
@@ -6754,6 +6877,7 @@ Transform:
   m_Father: {fileID: 221212773}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &1357883547
@@ -7025,6 +7149,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!1001 &1402827283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7041,10 +7167,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4
 =======
       value: 3
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
+=======
+      value: 2
+>>>>>>> parent of 2beb8c9 (the Enemys)
 =======
       value: 2
 >>>>>>> parent of 2beb8c9 (the Enemys)
@@ -7106,6 +7236,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: -8679921383154817045, guid: f097732ebb7dce2468b31630cbe0ee68, type: 3}
       propertyPath: m_RootOrder
@@ -7201,6 +7332,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d5af29da44082e145b3512798e02970c, type: 3}
 =======
+=======
+    - target: {fileID: 1707491692395910421, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+      propertyPath: m_Name
+      value: enemy (2)
+      objectReference: {fileID: 0}
+>>>>>>> parent of 2beb8c9 (the Enemys)
     - target: {fileID: 1707491692395910421, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
       propertyPath: m_TagString
       value: Hostile
@@ -7210,6 +7347,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 221212773}
     - target: {fileID: 8394980597538877257, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+<<<<<<< HEAD
+>>>>>>> parent of 2beb8c9 (the Enemys)
+=======
 >>>>>>> parent of 2beb8c9 (the Enemys)
       propertyPath: m_RootOrder
       value: 9
@@ -7254,6 +7394,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 919132149155446097, guid: d5af29da44082e145b3512798e02970c, type: 3}
       propertyPath: m_Name
@@ -7312,10 +7453,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: d5af29da44082e145b3512798e02970c, type: 3}
@@ -7336,6 +7480,9 @@ Transform:
   m_PrefabInstance: {fileID: 1558171819}
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
   m_PrefabAsset: {fileID: 0}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
+>>>>>>> parent of 2beb8c9 (the Enemys)
 =======
   m_SourcePrefab: {fileID: 100100000, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
 >>>>>>> parent of 2beb8c9 (the Enemys)
@@ -7473,6 +7620,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1492446058}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &1540292282
@@ -7752,6 +7900,8 @@ Transform:
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!1 &1624902826
 GameObject:
   m_ObjectHideFlags: 0
@@ -7832,6 +7982,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624902826}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &1635452568
@@ -7975,6 +8126,8 @@ Transform:
   m_PrefabInstance: {fileID: 1614162436}
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!1 &1640219195
@@ -8146,6 +8299,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1733558717}
   m_Mesh: {fileID: -5495902117074765545, guid: 63f83b5d94a503b4b97d1a7988239031, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &1740193830
@@ -8660,6 +8814,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!1 &1921164821
 GameObject:
   m_ObjectHideFlags: 0
@@ -8697,6 +8853,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1954436714
 =======
 --- !u!4 &1963626892 stripped
@@ -8711,6 +8868,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2008306913
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
+=======
+--- !u!1001 &2008306913
+>>>>>>> parent of 2beb8c9 (the Enemys)
 =======
 --- !u!1001 &2008306913
 >>>>>>> parent of 2beb8c9 (the Enemys)
@@ -8737,10 +8897,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -1
 =======
       value: 11
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
+=======
+      value: 10
+>>>>>>> parent of 2beb8c9 (the Enemys)
 =======
       value: 10
 >>>>>>> parent of 2beb8c9 (the Enemys)
@@ -8872,6 +9036,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &2072120782 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8394980597538877257, guid: 73c2485236e0a154db1c12e4740a8e6c, type: 3}
@@ -8949,6 +9114,8 @@ Transform:
   m_PrefabInstance: {fileID: 1263684934}
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!1 &2094911118
@@ -9085,6 +9252,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094911118}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &2121202150
@@ -9297,6 +9465,8 @@ Transform:
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
 =======
 >>>>>>> parent of 2beb8c9 (the Enemys)
+=======
+>>>>>>> parent of 2beb8c9 (the Enemys)
 --- !u!4 &543450653100528020
 Transform:
   m_ObjectHideFlags: 0
@@ -9327,10 +9497,14 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 3
 =======
   m_RootOrder: 2
 >>>>>>> 25bb6cc77befb69caf22c0d187ab64d059735eb1
+=======
+  m_RootOrder: 1
+>>>>>>> parent of 2beb8c9 (the Enemys)
 =======
   m_RootOrder: 1
 >>>>>>> parent of 2beb8c9 (the Enemys)
