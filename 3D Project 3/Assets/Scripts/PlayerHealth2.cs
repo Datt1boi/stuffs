@@ -27,11 +27,11 @@ public class PlayerHealth2 : MonoBehaviour {
 		}
 	}
 
-	void OnCollisionEnter2D(Collision2D collision)
+	void OnCollisionEnter3D(MeshCollider collision)
     {
 		if (collision.gameObject.tag == "Hostile")
         {
-			health -= 10;
+			health -= 1;
 
 		}
 	}

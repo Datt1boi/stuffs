@@ -8,6 +8,7 @@ TagManager:
   - Grounded
   - GUN
   - Hostile
+  - baddie
   layers:
   - Default
   - TransparentFX
