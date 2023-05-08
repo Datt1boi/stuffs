@@ -1359,7 +1359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: 4
   SprintSpeed: 6
-  RotationSmoothTime: 0.12
+  RotationSmoothTime: 0.294
   SpeedChangeRate: 10
   LandingAudioClip: {fileID: 0}
   FootstepAudioClips: []
@@ -2351,6 +2351,52 @@ NavMeshAgent:
   m_BaseOffset: 0.015138449
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!1 &468012223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 468012225}
+  - component: {fileID: 468012224}
+  m_Layer: 0
+  m_Name: ni
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &468012224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468012223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78791a40cb4ec80489559e4c1ca44a3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyCount: 10
+  enemyTag: Enemy
+--- !u!4 &468012225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468012223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 650.3367, y: 288.74353, z: 557.4977}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &485725403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3659,6 +3705,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 221212773}
+    - target: {fileID: 6393746787902141518, guid: dfe13f4dee59abe4fb449b4559b34c40, type: 3}
+      propertyPath: startingHealth
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8072090377376606964, guid: dfe13f4dee59abe4fb449b4559b34c40, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5286,6 +5336,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 756175334}
     m_Modifications:
+    - target: {fileID: -8682588621154778925, guid: dfe13f4dee59abe4fb449b4559b34c40, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2613951942104949747, guid: dfe13f4dee59abe4fb449b4559b34c40, type: 3}
       propertyPath: player
       value: 
@@ -6384,6 +6438,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 221212773}
+    - target: {fileID: 6393746787902141518, guid: dfe13f4dee59abe4fb449b4559b34c40, type: 3}
+      propertyPath: damageTag
+      value: GUN
+      objectReference: {fileID: 0}
     - target: {fileID: 8072090377376606964, guid: dfe13f4dee59abe4fb449b4559b34c40, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -9266,7 +9324,7 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5

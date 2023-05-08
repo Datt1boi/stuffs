@@ -9,11 +9,12 @@ TagManager:
   - GUN
   - Hostile
   - baddie
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
   - post
