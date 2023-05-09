@@ -25,6 +25,8 @@ public class deathBarrair : MonoBehaviour
     {
         if (this.transform.position.y < this.deathBarrier)
         {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.Confined;
             SceneManager.LoadScene("DeadScreen");
         }
     }
