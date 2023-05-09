@@ -2371,10 +2371,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 221212773}
-    - target: {fileID: 5159668569295176721, guid: dfe13f4dee59abe4fb449b4559b34c40, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8072090377376606964, guid: dfe13f4dee59abe4fb449b4559b34c40, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -6282,6 +6278,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 756175334}
     m_Modifications:
+    - target: {fileID: -8682588621154778925, guid: dfe13f4dee59abe4fb449b4559b34c40, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2613951942104949747, guid: dfe13f4dee59abe4fb449b4559b34c40, type: 3}
       propertyPath: player
       value: 
@@ -9283,7 +9283,6 @@ GameObject:
   - component: {fileID: 1711813856245656315}
   - component: {fileID: 633321090}
   - component: {fileID: 3469287837018218034}
-  - component: {fileID: 3469287837018218035}
   m_Layer: 8
   m_Name: GUN
   m_TagString: GUN
@@ -9494,28 +9493,6 @@ MeshFilter:
   m_GameObject: {fileID: 919132148579076910}
   m_Mesh: {fileID: 4414802566889351027, guid: 385857e9e10d084479fd28b556eb147e, type: 3}
 --- !u!64 &3469287837018218034
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148579076910}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4414802566889351027, guid: 385857e9e10d084479fd28b556eb147e, type: 3}
---- !u!64 &3469287837018218035
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
