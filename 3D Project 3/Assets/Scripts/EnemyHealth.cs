@@ -11,12 +11,12 @@ public class EnemyHealth : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
-        GetComponent<Collider>().isTrigger = true;
+        GetComponent<BoxCollider>().isTrigger = true;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollision3D(BoxCollider collision)
     {
-        if (collision.gameObject.CompareTag(damageTag))
+        if (collision.gameObject.tag == damageTag)
         {
             TakeDamage(1); // Deal 1 damage to the enemy
             Destroy(collision.gameObject);

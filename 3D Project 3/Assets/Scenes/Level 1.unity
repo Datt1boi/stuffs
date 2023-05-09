@@ -131,6 +131,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 756175334}
     m_Modifications:
+    - target: {fileID: -8682588621154778925, guid: dfe13f4dee59abe4fb449b4559b34c40, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2613951942104949747, guid: dfe13f4dee59abe4fb449b4559b34c40, type: 3}
       propertyPath: player
       value: 
@@ -2367,6 +2371,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 221212773}
+    - target: {fileID: 5159668569295176721, guid: dfe13f4dee59abe4fb449b4559b34c40, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8072090377376606964, guid: dfe13f4dee59abe4fb449b4559b34c40, type: 3}
       propertyPath: m_RootOrder
       value: -1
