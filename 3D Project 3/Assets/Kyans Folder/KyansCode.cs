@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class KyansCode : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public string enemyTag = "Enemy";  // tag to assign to the enemy
+
     private void OnTriggerEnter(Collider other)
     {
-        ScoreTextScript.enemyCount += 1;
-        Destroy(gameObject);
+        if (other.gameObject.tag == enemyTag)
+        {
+            ScoreTextScript.enemyCount += 1;
+            other.gameObject.tag = enemyTag; // assign the tag to the enemy
+            Destroy(gameObject);
+        }
     }
 }
