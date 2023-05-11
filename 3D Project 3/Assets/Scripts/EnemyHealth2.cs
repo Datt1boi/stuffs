@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DestroyOnCollision : MonoBehaviour
+public class EnemyHealth2 : MonoBehaviour
 {
     public string destroyTag = "GUN"; // tag of the object that can destroy this object
 
@@ -11,7 +11,7 @@ public class DestroyOnCollision : MonoBehaviour
     {
         if (collision.gameObject.CompareTag(destroyTag))
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene("Win Screen");
         }
     }
 }

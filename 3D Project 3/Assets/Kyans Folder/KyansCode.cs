@@ -5,22 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class KyansCode : MonoBehaviour
 {
-    public string enemyTag = "Enemy";  // tag to assign to the enemy
-    public int targetCount = 10;  // the number of enemies needed to trigger the scene change
+    public int targetCount = 10; // the number of enemies needed to trigger the scene change
+    private int currentCount = 0; // the current count of destroyed enemies
 
-    private void OnTriggerEnter(Collider other)
+    public void EnemyDestroyed()
     {
-        if (gameObject.tag == enemyTag)
+        currentCount++;
+
+        // check if the target count has been reached
+        if (currentCount >= targetCount)
         {
-            ScoreTextScript.enemyCount += 1;
-            other.gameObject.tag = enemyTag; // assign the tag to the enemy
-
-            if (ScoreTextScript.enemyCount >= targetCount)
-            {
-                SceneManager.LoadScene("win screen");
-            }
-
-            Destroy(gameObject);
+            // load the specified scene
+            SceneManager.LoadScene("Win Screen");
         }
     }
 }

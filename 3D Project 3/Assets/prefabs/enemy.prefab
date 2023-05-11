@@ -74,17 +74,36 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 435a370dc4df96a498e61656e8c96975, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -8682588621154778925}
+      addedObject: {fileID: 2613951942104949747}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 435a370dc4df96a498e61656e8c96975, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2613951942104949747}
+      addedObject: {fileID: 8193892823326620002}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 435a370dc4df96a498e61656e8c96975, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -111209939267620200}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 435a370dc4df96a498e61656e8c96975, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8046462857833044712}
   m_SourcePrefab: {fileID: 100100000, guid: 435a370dc4df96a498e61656e8c96975, type: 3}
 --- !u!1 &8885043249439436878 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 435a370dc4df96a498e61656e8c96975, type: 3}
   m_PrefabInstance: {fileID: 8615221243309509919}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &-8682588621154778925
+--- !u!114 &2613951942104949747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8885043249439436878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25e202be04a085c41b7fe35b8a673376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7408511135417395472, guid: fc69b595a6f2cac4483af2cc3a59dd9b, type: 3}
+--- !u!64 &8193892823326620002
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -99,14 +118,14 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2534964839176971238, guid: 435a370dc4df96a498e61656e8c96975, type: 3}
---- !u!114 &2613951942104949747
+--- !u!114 &-111209939267620200
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,7 +134,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 8885043249439436878}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25e202be04a085c41b7fe35b8a673376, type: 3}
+  m_Script: {fileID: 11500000, guid: 981142b3e8a80694c98e11c25e1196ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  targetCount: 60
+--- !u!114 &-8046462857833044712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8885043249439436878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ecdbb01da1b07b40824d56ad811a43b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTag: GUN
