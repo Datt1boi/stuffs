@@ -158,7 +158,7 @@ MonoBehaviour:
   FootstepAudioClips: []
   FootstepAudioVolume: 0.5
   JumpHeight: 1.2
-  Gravity: 0
+  Gravity: -0.15
   JumpTimeout: 0.5
   FallTimeout: 0.15
   Grounded: 1
@@ -382,7 +382,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 981142b3e8a80694c98e11c25e1196ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyTag: Enemy
   targetCount: 10
 --- !u!1 &5538460773148400984
 GameObject:
