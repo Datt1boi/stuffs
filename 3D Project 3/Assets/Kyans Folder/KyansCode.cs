@@ -16,6 +16,8 @@ public class KyansCode : MonoBehaviour
         if (currentCount >= targetCount)
         {
             // load the specified scene
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.Confined;
             SceneManager.LoadScene("Win Screen");
         }
     }
